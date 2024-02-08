@@ -2,9 +2,9 @@
 
 Description of your project.
 
-![Screenshot 1](screenshots/ss1.png)
-![Screenshot 2](screenshots/ss2.png)
-![Screenshot 3](screenshots/ss3.png)
+![Screenshot 1](./screenshots/ss1.png)
+![Screenshot 2](./screenshots/ss2.png)
+![Screenshot 3](./screenshots/ss3.png)
 
 Certainly! Below is a simple example of a `README.md` file for your "watchflix" project. You can customize it further based on the specifics of your project:
 

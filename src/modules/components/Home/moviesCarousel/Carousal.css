@@ -1,0 +1,23 @@
+/* Add your other styles here */
+.prev-arrow,
+.next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  z-index: 1; 
+  color: white;
+  width: 30px; 
+  height: 180px; 
+}
+
+.prev-arrow {
+  left: 0px; 
+}
+
+.next-arrow {
+  right: 10px; 
+}

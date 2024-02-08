@@ -1,0 +1,17 @@
+/* VideoPlayer.css */
+
+.video-player-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+  }
+  
+  /* Hide title and YouTube logo on hover */
+  .react-player:hover .video-react-title {
+    display: none;
+  }
+  
+  .react-player:hover .video-react-logo {
+    display: none;
+  }
+  

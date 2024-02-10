@@ -1,14 +1,17 @@
-import React from "react";
-import Carousel from "./moviesCarousel/CarousalComponent";
 import PopularMoviesComponent from "./PopularMoviesComponent";
 import TopRatedMoviesComponent from "./topRatedMoviesComponent";
 import UpcomingMoviesComponent from "./UpcomingMoviesComponent";
+import Genre from "./Genre";
+import TrendingBanner from "./TrendingBanner";
+
 const HomeComponent = () => {
   return (
-    <div className="pt-7">
+    <div className="xs:space-y-6 sm:space-y-6  pt-7">
+      <TrendingBanner />
       <PopularMoviesComponent />
       <TopRatedMoviesComponent />
       <UpcomingMoviesComponent />
+      {/* <Genre /> */}
     </div>
   );
 };

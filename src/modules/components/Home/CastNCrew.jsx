@@ -18,7 +18,7 @@ const CastNCrew = ({ id }) => {
   {
     return peopleList ? (
       <div className="">
-        <h1 className="font-martel-sans pb-3 bold text-xl text-white">
+        <h1 className=" font-martel-sans pb-3 bold text-xl text-white">
           {" Details"}
         </h1>
         <CreditDetailsCard

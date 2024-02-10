@@ -4,22 +4,30 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                // 'kalnia': ['Kalnia', 'serif'],
-                // 'lora': ['Lora', 'serif'],
-                // 'roboto': ['Roboto', 'sans-serif'],
-                // 'poppins': ['Poppins'],
                 'martel-sans': ['Martel Sans', 'sans-serif'],
             },
-            screens: {
-                'tablet': '640px',
-                // => @media (min-width: 640px) { ... }
-
-                'laptop': '1024px',
-                // => @media (min-width: 1024px) { ... }
-
-                'desktop': '1280px',
-                // => @media (min-width: 1280px) { ... }
+            animation: {
+                text: 'text 5s ease infinite',
             },
+            keyframes: {
+                text: {
+                    '0%, 100%': {
+                        'background-size': '200% 200%',
+                        'background-position': 'left center',
+                    },
+                    '50%': {
+                        'background-size': '200% 200%',
+                        'background-position': 'right center',
+                    },
+                },
+            },
+            screens: {
+                'xs': '200px',
+                'tablet': '640px',
+                'laptop': '1024px',
+                'desktop': '1280px',
+            }
+
 
         },
     },

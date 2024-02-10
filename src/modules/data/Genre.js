@@ -1,0 +1,45 @@
+
+
+
+export const GENRE_IMG = [
+    { "Action": "https://www.google.com/search?q=Action+genre+images&tbm=isch" },
+    { "Adventure": "https://www.google.com/search?q=Adventure+genre+images&tbm=isch" },
+    { "Animation": "https://www.google.com/search?q=Animation+genre+images&tbm=isch" },
+    { "Comedy": "https://www.google.com/search?q=Comedy+genre+images&tbm=isch" },
+    { "Crime": "https://www.google.com/search?q=Crime+genre+images&tbm=isch" },
+    { "Documentary": "https://www.google.com/search?q=Documentary+genre+images&tbm=isch" },
+    { "Drama": "https://www.google.com/search?q=Drama+genre+images&tbm=isch" },
+    { "Family": "https://www.google.com/search?q=Family+genre+images&tbm=isch" },
+    { "Fantasy": "https://www.google.com/search?q=Fantasy+genre+images&tbm=isch" },
+    { "History": "https://www.google.com/search?q=History+genre+images&tbm=isch" },
+    { "Horror": "https://www.google.com/search?q=Horror+genre+images&tbm=isch" },
+    { "Music": "https://www.google.com/search?q=Music+genre+images&tbm=isch" },
+    { "Mystery": "https://www.google.com/search?q=Mystery+genre+images&tbm=isch" },
+    { "Romance": "https://www.google.com/search?q=Romance+genre+images&tbm=isch" },
+    { "Science Fiction": "https://www.google.com/search?q=Science%20Fiction+genre+images&tbm=isch" },
+    { "TV Movie": "https://www.google.com/search?q=TV%20Movie+genre+images&tbm=isch" },
+    { "Thriller": "https://www.google.com/search?q=Thriller+genre+images&tbm=isch" },
+    { "War": "https://www.google.com/search?q=War+genre+images&tbm=isch" },
+    { "Western": "https://www.google.com/search?q=Western+genre+images&tbm=isch" }
+]
+export const GENRE = [
+    "Action",
+    "Adventure",
+    "Animation",
+    "Comedy",
+    "Crime",
+    "Documentary",
+    "Drama",
+    "Family",
+    "Fantasy",
+    "History",
+    "Horror",
+    "Music",
+    "Mystery",
+    "Romance",
+    "Science Fiction",
+    "TV Movie",
+    "Thriller",
+    "War",
+    "Western",
+];

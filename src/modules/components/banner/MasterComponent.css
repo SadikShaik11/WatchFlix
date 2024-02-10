@@ -4,11 +4,7 @@
 body,
 html {
   background: #000000;
-  padding: 0;
-  margin: 0;
-  padding-bottom: 6rem;
-  font-family: "Montserrat", sans-serif;
-  width: 100%;
+ 
 }
 
 .container {
@@ -16,7 +12,7 @@ html {
 }
 
 img {
-  -webkit-box-reflect: below 5px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
+  /* -webkit-box-reflect: below 5px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4)); */
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -109,3 +105,4 @@ button {
     margin-bottom: 7rem;
   }
 }
+

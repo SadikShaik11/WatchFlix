@@ -11,7 +11,6 @@ const MasterCard = ({ id }) => {
   useEffect(() => {
     const data = async () => {
       const videoData = await getVideo(id);
-      console.log(videoData?.results[0]);
       setVideo(videoData?.results[0]);
     };
     data();

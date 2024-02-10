@@ -5,11 +5,11 @@
   top: 50%;
   transform: translateY(-50%);
   font-size: 18px;
-  padding: 10px;
+  padding: 8px;
   border: none;
   cursor: pointer;
   z-index: 1; 
-  color: white;
+  background-color:rgba(132, 54, 54, 0.8);
   width: 30px; 
   height: 180px; 
 }
@@ -19,5 +19,5 @@
 }
 
 .next-arrow {
-  right: 10px; 
+  right: 0px; 
 }

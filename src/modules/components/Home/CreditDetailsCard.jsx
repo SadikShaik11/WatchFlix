@@ -11,8 +11,8 @@ const CreditDetailsCard = ({ cast, crew, movie }) => {
   const genres = movie.genres;
   return (
     <div className="">
-      <div className="flex font-martel-sans-Black flex- row  justify-evenly">
-        <div className="text-white space-y-3 flex flex-col max-w-[20%]">
+      <div className="xs:flex-col flex font-martel-sans-Black md:flex-row  justify-evenly">
+        <div className="xs:max-w-screen text-white space-y-3 flex flex-col md:max-w-[20%]">
           <span className="text-2xl font-martel-sans-Black  text-red-600 bold overflow-ellipsis">
             {movie.title}
           </span>
@@ -42,7 +42,7 @@ const CreditDetailsCard = ({ cast, crew, movie }) => {
             </div>
           </span>
         </div>
-        <div className="text-white max-w-[30%] text-sm">
+        <div className="xs:max-w-screen text-white md:max-w-[30%] text-sm">
           {cast &&
             cast.map((item) => {
               return (
@@ -59,7 +59,7 @@ const CreditDetailsCard = ({ cast, crew, movie }) => {
               );
             })}
         </div>
-        <div className="text-white max-w-[30%] text-sm ">
+        <div className="xs:max-w-screen text-white md:max-w-[30%] text-sm ">
           {crew &&
             crew.map((item) => {
               return (

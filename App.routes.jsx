@@ -3,6 +3,7 @@ import App from "./App";
 
 import Home from "./src/modules/pages/Home";
 import MovieDetails from "./src/modules/pages/MovieDetails";
+import SearchPage from "./src/modules/pages/SearchedIItems";
 
 const routes = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const routes = createBrowserRouter([
       {
         path: "/movie/:id",
         element: <MovieDetails />,
+      },
+      {
+        path: "/search",
+        element: <SearchPage />,
       },
     ],
   },

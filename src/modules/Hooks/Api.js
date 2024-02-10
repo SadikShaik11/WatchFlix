@@ -107,7 +107,69 @@ export const getMovieDetails = async (movieId) => {
             accept: 'application/json',
         },
     });
-    console.log(response)
     return response.data;
 
+};
+
+
+export const getMovieGenres = async () => {
+    try {
+        const response = await axios.get(`${process.env.TMDB_URL}/3/genre/movie/list`, {
+            params: {
+                'language': 'en',
+            },
+            headers: {
+                Authorization: `Bearer ${process.env.AUTH_TOKEN}`,
+                accept: 'application/json',
+            },
+        });
+        return response.data;
+    } catch (error) {
+        console.error('Error fetching movie genres:', error.message);
+        throw error;
+    }
+};
+
+
+
+export const getTrendingMovies = async () => {
+    try {
+        const response = await axios.get(`${process.env.TMDB_URL}/3/trending/movie/day`, {
+            params: {
+                'language': 'en-US'
+            },
+            headers: {
+                Authorization: `Bearer ${process.env.AUTH_TOKEN}`,
+                accept: 'application/json',
+            },
+        });
+        console.log(response.data);
+        return response.data;
+    } catch (error) {
+        console.error('Error fetching trending movies:', error);
+        throw error;
+    }
+};
+
+
+export const searchMovies = async (query, page = 1) => {
+    try {
+        const response = await axios.get(`${process.env.TMDB_URL}/3/search/movie`, {
+            params: {
+                include_adult: false,
+                language: 'en-US',
+                page: page,
+                query: query,
+            },
+            headers: {
+                Authorization: `Bearer ${process.env.AUTH_TOKEN}`,
+                accept: 'application/json',
+            },
+        });
+
+        return response.data;
+    } catch (error) {
+        console.error(error);
+        throw error;
+    }
 };

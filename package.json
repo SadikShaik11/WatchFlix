@@ -2,7 +2,7 @@
   "name": "watchflix",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "npx parcel index.html",
     "build": "npx parcel build index.html",

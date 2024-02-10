@@ -3,7 +3,7 @@ import React from "react";
 import "./MasterComponent.css"; // Make sure to import the corresponding CSS file
 import { useState, useEffect } from "react";
 import { getVideo } from "../../Hooks/Api";
-import VideoPlayer from "../videoPlayer/VideoPlayer";
+import VideoPlayer from "../VideoPlayer/VideoPlayer";
 
 const MasterCard = ({ id }) => {
   const [video, setVideo] = useState([]);

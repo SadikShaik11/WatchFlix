@@ -1,69 +1,82 @@
-# Your Project Name
+<h1 align="center" id="title" style="color: #ff5733;">WATCHFLIX</h1>
 
-Description of your project.
+<p align="center"><img src="https://watch-flix-delta.vercel.app/logo.262e2336.png" alt="project-image"></p>
 
-![Screenshot 1](./screenshots/ss1.png)
-![Screenshot 2](./screenshots/ss2.png)
-![Screenshot 3](./screenshots/ss3.png)
+<p id="description" style="color: #333;">Watchflix is a web application that aims to offer users a personalized movie and TV show streaming experience comparable to popular platforms such as Netflix.</p>
 
-Certainly! Below is a simple example of a `README.md` file for your "watchflix" project. You can customize it further based on the specifics of your project:
+<p align="center"><img src="https://img.shields.io/badge/React-%5E18.2.0-red" alt="shields"><img src="https://img.shields.io/badge/Tailwind-%5E18.2.0-blue" alt="shields"></p>
+<p style="color: #333;"> Author: Sadik</p>
+<h2 style="color: #ff5733;">🚀 Demo</h2>
 
-```markdown
-# Watchflix
+[https://watch-flix-delta.vercel.app/](https://watch-flix-delta.vercel.app/)
 
-Watchflix is a React-based web application for streaming videos. It leverages popular libraries such as React, React Router, Axios, and more to create a dynamic and engaging video streaming experience.
+<h2 style="color: #ff5733;">Project Screenshots:</h2>
 
-## Getting Started
+## Desktop 
 
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+<p float="left">
+  <img src="https://i.postimg.cc/xTJqg98f/ss1.png" alt="desktop-screenshot-1" width="400px">
+  <img src="https://i.postimg.cc/8C9T76dL/ss3.png" alt="desktop-screenshot-2" width="400px">
+</p>
 
-### Prerequisites
+## Mobile 
 
-Make sure you have Node.js and npm installed on your machine.
+<p float="left">
+  <img src="https://i.postimg.cc/50ypRXDK/Whats-App-Image-2024-05-14-at-10-11-07-PM.jpg" alt="mobile-screenshot-1" width="300px">
+  <img src="https://i.postimg.cc/k5ffsQYt/Whats-App-Image-2024-05-14-at-10-11-06-PM.jpg" alt="mobile-screenshot-2" width="300px">
+  <img src="https://i.postimg.cc/ZRQjtTSb/Whats-App-Image-2024-05-14-at-10-11-07-PM-1.jpg" alt="mobile-screenshot-3" width="300px">
+</p>
 
-### Installing
+<h2 style="color: #ff5733;">🧐 Features</h2>
 
-1. Clone the repository to your local machine:
+Here're some of the project's best features:
 
-   ```bash
-   git clone https://github.com/your-username/watchflix.git
-   ```
+*   Responsive Design: Watchflix is designed to be accessible across various devices including desktops laptops tablets and smartphones. The responsive layout ensures an optimal viewing experience regardless of screen size or device orientation.
+*   Streaming Experience: Once logged in users can stream movies and TV shows directly on the platform. Watchflix provides a smooth and immersive streaming experience with high-quality playback and adjustable video settings.
 
-2. Navigate to the project directory:
+<h2 style="color: #ff5733;">🛠️ Installation Steps:</h2>
 
-   ```bash
-   cd watchflix
-   ```
+<p style="color: #333;">1. Clone the repository to your local machine:</p>
 
-3. Install the dependencies:
 
-   ```bash
-   npm install
-   ```
 
-### Running the Application
+```
+git clone https://github.com/your-username/watchflix.git
+```
 
-Start the development server:
+<p>2. Install the dependencies:</p>
 
-```bash
+```
+npm install
+```
+
+<p>3. Runnig App :</p>
+
+```
 npm start
 ```
 
-The application will be accessible at [http://localhost:1234](http://localhost:1234).
+  
+  
+<h2>💻 Built with</h2>
 
-## Built With
+Technologies used in the project:
 
-- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
-- [React Router](https://reactrouter.com/) - Declarative routing for React.js.
-- [Axios](https://axios-http.com/) - Promise-based HTTP client for the browser and Node.js.
-- [React Player](https://github.com/cookpete/react-player) - A React component for playing a variety of URLs, including YouTube and Vimeo.
-- [React Slick](https://react-slick.neostack.com/) - React carousel/slider component.
-- [Slick Carousel](https://slick-carousel.vercel.app/) - Responsive carousel/slider jQuery plugin.
+*   React
+*   Context API
+*   Tailwind css
+*   Responsive Webdesign
+*   React Media Player
 
-## Contributing
+<h2>💖Like my work?</h2>
 
-If you'd like to contribute, please fork the repository and create a pull request. Contributions are welcome!
+Follow on :
+<p style="display: flex; justify-content: space-between; align-items: center;">
+  Email: SadikShaik139@mail.com <br>
+  Linkedin: <a href="https://www.linkedin.com/in/sadik-uzumaki555/"><img src="https://as1.ftcdn.net/v2/jpg/04/74/05/94/1000_F_474059464_qldYuzxaUWEwNTtYBJ44VN89ARuFktHW.jpg" alt="LinkedIn" width="30"></a> <br>
+  Youtube: <a href="https://www.youtube.com/@SoftwareCoolie01"><img src="https://content.linkedin.com/content/dam/brand/site/img/logo/logo-hero.png" alt="YouTube" width="30"></a>
+</p>
 
-## License
 
-This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
+
+
